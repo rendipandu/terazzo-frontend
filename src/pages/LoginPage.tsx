@@ -1,5 +1,5 @@
 import React from 'react';
-import LoginForm from '../components/organisms/forms/LoginForm';
+import LoginForm from '../components/molecules/forms/LoginForm';
 
 const LoginPage: React.FC = () => {
     return (

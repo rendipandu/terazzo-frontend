@@ -1,0 +1,27 @@
+.terazzo {
+    display: flex;
+    height: inherit;
+    width: 100%;
+    max-width: 100rem;
+    overflow-y: auto;
+
+    .terazzo_container {
+        width: 100%;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        height: calc(100vh - (var(--navbar-height) + var(--breadcrumb-height)));
+    }
+
+    .terazzo_body {
+        position: relative;
+        height: inherit;
+        overflow-y: auto;
+        width: 100%;
+
+        div {
+            height: inherit;
+            overflow-y: auto;
+        }
+    }
+}

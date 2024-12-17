@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { logout } from '../../../api/auth';
+import { logout } from '../../../data/auth/client';
 import { Button } from 'react-bootstrap';
 
 const LogoutButton: React.FC = () => {
@@ -14,7 +14,7 @@ const LogoutButton: React.FC = () => {
         navigate('/');
     };
 
-    return <Button onClick={handleLogout}>Logout</Button>;
+    return <Button className='w-100' onClick={handleLogout}>Logout</Button>;
 };
 
 export default LogoutButton;
